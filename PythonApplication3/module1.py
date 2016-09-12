@@ -21,7 +21,7 @@ main_clock = pygame.time.Clock()
 
 score_SOnic = 0
 score_opponent = 0
-lives_SOnic = 10
+lives_SOnic = 15
 lives_opponent = 10
 alive = True
 
@@ -35,7 +35,7 @@ move_left = False
 move_right = False
 
 opponent = pygame.Rect(100,100,60,10)
-opponent_speed = 10
+opponent_speed = 15
 
 move_left2 = False
 move_right2 = True
